@@ -341,6 +341,57 @@ html.dark .theme-btn .moon-icon {
   margin-bottom: 0.85rem;
 }
 
+.learning-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.7rem;
+  background-color: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: var(--radius-full);
+  color: #d97706;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin-bottom: 0.85rem;
+}
+
+html.dark .learning-badge {
+  background-color: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.35);
+  color: #fbbf24;
+}
+
+.profile-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+}
+
+.profile-banner-container {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border-card);
+  box-shadow: var(--shadow-card);
+  background-color: var(--bg-card);
+  transition: all var(--transition-normal);
+}
+
+.profile-banner-container:hover {
+  border-color: var(--border-focus);
+  box-shadow: var(--shadow-hover);
+}
+
+.profile-banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .status-dot {
   width: 8px;
   height: 8px;
